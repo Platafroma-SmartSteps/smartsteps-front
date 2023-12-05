@@ -1,0 +1,62 @@
+.Login{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.headerLogin{
+    display: flex;
+    height: 20vh;
+    width: 100%;
+    align-items: center;
+}
+
+.headerLogin img{
+    width: 150px;
+    height: 150px;
+}
+
+.formulario{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.formulario img{
+    width: 500px;
+    height: 500px;
+    border-radius: 15px;
+}
+
+.opcoes{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    gap: 10px;
+}
+
+.opcao{
+   border-bottom: 1px solid gray;
+   width: 40%;
+   display: flex;
+   justify-content: space-around;
+}
+
+.opcao button{
+    background: none;
+    border: none;
+    font-size: 20px;
+    outline: none;
+}
+
+.opcao button:hover{
+    border-bottom: 2px solid #7F00FF;
+}
+
+.opcaoSelecionada{
+    width: 40%;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+}

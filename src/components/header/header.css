@@ -1,0 +1,48 @@
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20vh; 
+  width: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    padding: 0 1rem;
+}
+
+nav a:hover{
+    border-bottom: 2px solid #7F00FF;
+} 
+
+.selected{
+    border-bottom: 2px solid #7F00FF;
+}
+
+.btnHeader{
+    border: solid 2px #FF8C00;
+    border-radius: 5px;
+    padding: 1.5rem;
+    margin-right: 1rem;
+    width: 8rem;
+    text-align: center;
+    color: #FF8C00;
+    text-decoration: none;
+}
+
+.btnHeader:hover{
+    background-color: #FF8C00;
+    color: white;
+}
+
+
+

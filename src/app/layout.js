@@ -1,7 +1,16 @@
 import { Inter } from 'next/font/google'
 import './globals.css'
 
+
 const inter = Inter({ subsets: ['latin'] })
+import { register } from 'swiper/element/bundle'
+
+register(); 
+import 'swiper/css'
+import 'swiper/css/navigation'
+import 'swiper/css/pagination'
+import 'swiper/css/scrollbar'
+import Provider from './Provider'
 
 export const metadata = {
   title: 'Smart steps',
@@ -11,7 +20,15 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="pt-br">
-      <body className={inter.className}>{children}</body>
+       
+      <body className={inter.className}>
+        
+        <Provider> 
+       
+          {children}
+        
+        </Provider>
+      </body>
     </html>
   )
 }

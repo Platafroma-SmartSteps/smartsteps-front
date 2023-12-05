@@ -1,60 +1,70 @@
-"use client";
-import Header from '@/components/Header'
+import Header from '@/components/header/Header'
+import Footer from '@/components/footer/Footer'
 import Image from 'next/image'
-import Footer from '@/components/Footer'
+import imgPrincipal from "public/img/fundo.jpg"
+import jovens from "public/img/jovens.jpeg"
+import aulaPP from "public/img/aulaPP.jpeg"
+import ambiete1 from "public/img/ambiente1.jpeg"
+import ambiente2 from "public/img/ambiente2.jpeg"
+import btf from "public/img/butterfly.jpeg"
+import felipe from "public/img/gnomo.png"
 export default function Home() {
   return (
        <div className="container">
-       <Header></Header>
-       <main className='principal'>
-           <div className="inicio">
-            
-            <h3>Participe da Revolução Educacional</h3>
-            <p>Smart Steps, é mais do que uma plataforma, é uma comunidade vibrante em busca do conhecimento e da inspiração</p>
+           <Header></Header>
+           <div className="inicioImg">
+             <Image src={imgPrincipal}/>
            </div>
-
-           <section className="professoresAven">
-              <div className="text">
-                 <h5>Professores aventureiros</h5>
-                 <p>Junte-se a nós com voluntario e compartilhe seu conhecimento de uma maneira única</p>
-                 <p>Transforme uma sala de aula tradicional em um ponto cultural cheio de descobetas</p>
-                 <p>Cadastre-se agora e faça parte dessa revolução educacional! 🍎🚀</p>
-              </div>
-              <div className="img">
-                <Image src='/img/professores.png' width={600} height={600} className='imgprof'/>
-              </div>
-           </section>
-           <section className="jovensExp">
-              <div className="img">
-                 <Image src='/img/jovens.png' width={600} height={600}></Image>
-              </div>
-              <div className="text">
-                 <h5>Jovens exploradores do saber</h5>
-                 <p>Você está entediado com a sala de aula comun?</p>
-                 <p>Quer aprender de uma forma divertida e interativa?</p>
-                 <p>Venha fazer parte da nossa comunidade!</p>
-                 <p>Canais empolgantes, equipes colaborativas, eventos educacionais em lugares incríveis.</p>
-                 <p>Cadastre-se agora e faça dos seus estudos uma verdadeira aventura! 📚✨</p>
-              </div>
-           </section>
-           <section className="comentarios">
-                 <div className="comentario">
-                    <div className="imagComentario">
-                       <Image src='/img/gnomo.png' width={70} height={70} className='fotoCom'></Image>
-                       <div className="textCom">
-                          <p>Felipe</p>
-                          <p>⭐⭐⭐⭐⭐</p>
-                          <p>A Smart Steps mudou completamente a forma como eu vejo a educação! Os canais
-                          são repletos de conteúdo envolvente, as equipes colaborativas são uma maneira
-                          incrivel de trocar conhecimento, os eventos educacionais em pontos culturais são
-                          simplesmente fantásticos. Como estudante, nunca me senti tão inspirado
-                          a aprender. recomendo a todos os jovens que buscam uma experiência educacional inovadora e divertida!.</p>
-                       </div>
-                    </div>
-                 </div>
-           </section>
-       </main>
-        <Footer></Footer>
+           <div className="infos">
+               <section className="info1">
+                  <Image src={jovens}/>
+                  <article>
+                     <h3>Jovens em busca do conhecimento</h3>
+                     <p>
+                        Participe dos canais e dos grupos de estudos. Compartilhe seus 
+                        conhecimentos com outros jovens. Participe de uma ambiente de 
+                        apoio e aprendizado.
+                     </p>
+                  </article>
+               </section>
+               <section className="info2">
+                  <article>
+                     <h3>Sejam guias do aprendizado.</h3>
+                     <p>
+                        Organize aulas em espaços culturais. 
+                        Mostre que o conhecimento pode ser
+                        adquirido de outras maneiras.
+                     </p>
+                  </article>
+                  <Image src={aulaPP}/>
+               </section>
+           </div>
+           <div className="novosAmbientes">
+             <div className="visita">
+                <h2>Visite novos ambientes de conhecimento</h2>
+                <div className="imagensVisita">
+                   <Image src={ambiete1}/>
+                   <Image src={ambiente2}/>
+                   <Image src={btf}/>
+                </div>
+             </div>
+             <div className="comentarios">
+                <Image src={felipe}/>
+                <div className="dadosComentarios">
+                  <h3>Felipe</h3>
+                  <p>
+                   ⭐⭐⭐⭐⭐ 
+                  </p>
+                  <p>
+                   A Smart Steps mudou completamente a forma como eu vejo a educação! Os canais são repletos de conteúdo envolvente, 
+                   as equipes colaborativas são uma maneira incrível de trocar conhecimentos, e os eventos educacionais em pontos culturais 
+                   são simplesmente fantásticos. Como estudante, nunca me senti tão inspirado a aprender. Recomendo a todos os jovens que buscam 
+                   uma experiência educacional inovadora e divertida!
+                  </p>
+                </div>
+             </div>
+           </div>
+           <Footer></Footer>
        </div>
   )
 }

@@ -1,0 +1,80 @@
+.PontosContainer{
+    display: flex; 
+    flex-direction: column;
+    width: 50%;
+}
+
+.pontos{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px; 
+    width: 100%;  
+}
+
+.pontos img{
+    width: 300px;
+    height: 300px;
+}
+
+.aulasInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    width: 50%; 
+}
+
+.aulasInfo h3{
+  color: #C95000;
+}
+
+.aulasInfo p{
+    color: black;
+    font-weight: bold;
+} 
+
+.aulasInfo span{
+    font-weight: normal;
+}
+
+.profAula{
+    display: flex;
+    aling-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.profAula img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.profAula h4{
+    margin-top: 14px;
+}
+
+.descricaoAula{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+
+.btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.btn button{
+    width: 30%;
+    height: 40px;
+    background-color: #C95000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
