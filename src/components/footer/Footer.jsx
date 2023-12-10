@@ -42,7 +42,7 @@ function Footer(){
                    <h4>Redes sociais</h4>
                    <div className="linkContato">
                      <Link className="cor-branca" href={'https://www.instagram.com/smartsteps_oficial/'} target="_blank"><FaInstagram /></Link>
-                     <Link className="cor-branca" href='https://www.linkedin.com/company/smartstepsoficial/about/'><CiLinkedin /></Link>
+                     <Link className="cor-branca" href='https://www.linkedin.com/company/smartstepsoficial/about/' target="_blank"><CiLinkedin /></Link>
                    </div>
               </div>
            </div>

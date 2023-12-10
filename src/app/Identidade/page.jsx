@@ -1,12 +1,11 @@
 import Header from "@/components/header/Header"
 import Footer from "@/components/footer/Footer"
-
-export default function Inicio(){
+export default function Identidade(){
     return(
-        <div className="inicio">
+        <div>
           <Header></Header>
-          <h2>Inicio</h2>
-          <Footer></Footer>
+          <h1>Identidade</h1>    
+          <Footer></Footer>   
         </div>
     )
 }

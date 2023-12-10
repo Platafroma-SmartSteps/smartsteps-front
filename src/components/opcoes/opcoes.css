@@ -1,0 +1,66 @@
+.sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+   
+}
+
+.btn-sobre{
+    width: 100px;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu.ativado{
+    opacity: 1;
+    visibility: visible;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 15%;
+    height: 150px;
+    margin-top: 11rem;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;  
+    box-shadow: 0px 0px 10px #000;
+    padding: 10px;
+}
+
+.menu.inativo{
+    opacity: 0;
+    visibility: hidden;
+    display: none;
+}
+
+.menu.ativado a{
+    font-size: 15px;
+}
+
+
+
+.menu{
+    opacity: 0;
+
+}
+
+.btn-sobre button{
+    width: 100px;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    color: #000;
+    font-size: 25px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.btn-sobre button:hover{
+    border-bottom: 2px solid #871DEA;
+}

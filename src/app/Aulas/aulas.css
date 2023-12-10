@@ -1,9 +1,9 @@
 .content{
-    border: 1px solid #000;
     width: 100%;
     height: auto;
     aling-items: center;
     justify-content: center;
+    
 }
 
 .proximasAulas{
@@ -11,13 +11,12 @@
     flex-direction: column;
     aling-items: center;
     justify-content: center;
-    border: 1px solid #000;
     width: 100%;
     height: auto;
+    text-align: center;
 }
 
 .espacos{
     display: flex;
     flex-wrap: wrap; 
-    
 }

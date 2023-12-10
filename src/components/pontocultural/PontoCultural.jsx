@@ -1,8 +1,23 @@
+"use client"
 import styles from "../pontocultural/styles.module.css"
 import Image from "next/image"
 import museuArte from "public/img/museu-de-arte-moderna.jpg"
 import professor from "public/img/professor1.png"
+import { useState } from "react"
+import SubiscriptionFomr from "@/components/inscrevase/Inscrevase"
 export default function PontosCulturais(){
+
+
+    const [isFormVisible, setFormVisibility] = useState(false)
+
+    const handleOpenForm = () => {
+        setFormVisibility(true)
+    }
+
+    const handleCloseForm = () => {
+        setFormVisibility(false)
+    }
+
     return(
         <div className={styles.PontosContainer}>
            <div className={styles.pontos}>
@@ -32,8 +47,13 @@ export default function PontosCulturais(){
                   
                 </div>
                 <div className={styles.btn}>
-                  <button>Inscreva-se</button>
+                  <button onClick={handleOpenForm}>Inscreva-se</button>
                 </div>
+                {isFormVisible && (
+                    <div className={styles.overlay}>
+                         <SubiscriptionFomr onClose={handleCloseForm}/>
+                    </div>
+                )}
             </div>
         </div>
     )

@@ -1,11 +1,11 @@
 import Header from "@/components/header/Header"
 import Footer from "@/components/footer/Footer"
-export default function Qsomos(){
+export default function Mvv(){
     return(
         <div>
-           <Header></Header>
-           <h1>Quem somos</h1>
-           <Footer></Footer>
+            <Header></Header>
+            <h1>Missao, visao e valores</h1>
+            <Footer></Footer>
         </div>
     )
 }

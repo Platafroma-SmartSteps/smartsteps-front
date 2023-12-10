@@ -11,10 +11,6 @@
                         <input type="email" name="email" id="email" placeholder="Digite seu email" required/>
                     </div>
                     <div className="inputs">
-                    <label htmlFor="email">Email</label>
-                     <input type="email" name="email" id="email" placeholder="Confirme seu email" required/>
-                    </div>
-                    <div className="inputs">
                         <label htmlFor="senha">Senha</label>
                         <input type="password" name="senha" id="senha" placeholder="digite sua senha"/>
                     </div>

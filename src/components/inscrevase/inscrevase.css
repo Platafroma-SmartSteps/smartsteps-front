@@ -1,0 +1,58 @@
+.subscription-form{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    height: 50vh;
+    border-radius: 10px;
+}
+
+.subscription-form h1{
+    color: #FF8C00;
+    text-align: center;
+}
+
+.subscription-form form{
+    display: flex;
+    gap: 20px;
+    height: 80%;
+}
+
+.subscription-form button{
+    width: 50%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #FF8C00;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.dados1{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    justify-content: space-around;
+}
+
+.dados2{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    justify-content: space-around;
+}
+
+.inputs-dados{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs-dados input{
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #FF8C00;
+    padding: 5px;
+    outline: none;
+}
