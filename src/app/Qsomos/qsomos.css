@@ -7,4 +7,19 @@
 .conteudo {
     display: flex;
     justify-content: center;
+    width: 100%;
+}
+
+.equipe {
+    width: 90%;
+}
+
+.equipe h1 {
+    text-align: center;
+}
+
+.equipe p {
+    text-align: justify;
+    font-size: 1.2rem;
+    margin-top: 25px;
 }

@@ -2,8 +2,7 @@ import Image from 'next/image'
 import Header from "@/components/header/Header"
 import Footer from "@/components/footer/Footer"
 import "../Perfil/perfil.css"
-import Susan from "../../assets//susan.jpg"
-import Fundo from "../../assets//fundo.jpg"
+import not from "../../assets/imageN.jpg"
 
 export default function Perfil() {
     return (
@@ -12,17 +11,16 @@ export default function Perfil() {
             <main>
                 <section className="info">
                     <div className="capaPerfil">
-                        <Image className="imagem" src={Fundo} />
+                        <Image className="imagem" src={not} />
                         <div className="fotoPerfil">
-                            <Image className="imagem" src={Susan} />
+                            <Image className="imagem" src={not} />
                         </div>
                     </div>
                 </section>
                 <section className="info">
                     <div className="materias">
-                        <div className="descricao">
-                            <h2>Susan Viana</h2>
-                            <h3>Estudante</h3>
+                        <div className="nomePerfil">
+                       
                         </div>
                     </div>
                 </section>
@@ -78,7 +76,7 @@ export default function Perfil() {
                                 <label for="aluno">Você é aluno?</label>
                                 <input type="radio" id="aluno" name="aluno"></input>
                             </div>
-                            
+
                             <div className="marcador">
                                 <label for="professor">Você é professor?</label>
                                 <input type="radio" id="professor" name="professor"></input>

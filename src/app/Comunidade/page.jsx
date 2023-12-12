@@ -3,6 +3,7 @@ import Header from "@/components/header/Header"
 import Footer from "@/components/footer/Footer"
 import "../Comunidade/comunidade.css"
 import Foto from "../../assets/img1.jpg"
+import Foto2 from "../../assets/img2.jpg"
 
 export default function Comunidade() {
   return (
@@ -17,7 +18,7 @@ export default function Comunidade() {
             <div className="foto">
               <Image src={Foto} />
             </div>
-            <div className="descricao">
+            <div className="texto2">
               <p>
                 Estamos super felizes por ter você em nossa turma.
               </p>
@@ -67,7 +68,7 @@ export default function Comunidade() {
           </div>
 
           <div className="foto">
-            <Image src={Foto} />
+            <Image src={Foto2} />
           </div>
         </section>
       </div>

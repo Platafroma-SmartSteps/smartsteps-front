@@ -4,7 +4,6 @@
     export default function Ntemconta(){
         return(
             <div className="forms">
-               <BtnGoogle></BtnGoogle>
                 <form action="">
                     <div className="inputs">
                         <label htmlFor="email">Email</label>
@@ -15,6 +14,7 @@
                         <input type="password" name="senha" id="senha" placeholder="digite sua senha"/>
                     </div>
                 </form>
+                <BtnGoogle></BtnGoogle>
                 <div className="entrar">
                     <button className="btnEntrar">Criar conta</button>
                 </div>

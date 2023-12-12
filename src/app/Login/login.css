@@ -1,62 +1,61 @@
-.Login{
-    display: flex;
-    flex-direction: column;
-    
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.headerLogin{
+.Login {
     display: flex;
-    height: 20vh;
+}
+
+.banner-fundo{
+    background-image: url('C:\Users\Aluno\Documents\PROA\PROA_Rafael\Programação\DemoDay\smartsteps-front\public\img\imgFundo.jpg');
+}
+
+.headerLogin img {
+    width: 100px;
+    height: 100px;
+}
+
+.formulario {
     width: 100%;
-    align-items: center;
-}
-
-.headerLogin img{
-    width: 150px;
-    height: 150px;
-}
-
-.formulario{
     display: flex;
-    justify-content: space-between;
-    padding: 10px;
 }
 
-.formulario img{
-    width: 500px;
-    height: 500px;
+.formulario img {
+    width: 50%;
+    height: 100%;
     border-radius: 15px;
 }
 
-.opcoes{
-    width: 80%;
+.opcoes {
+    width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;    
+    align-items: center;
     gap: 10px;
 }
 
-.opcao{
-   border-bottom: 1px solid gray;
-   width: 40%;
-   display: flex;
-   justify-content: space-around;
+.opcao {
+    border-bottom: 1px solid gray;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
 }
 
-.opcao button{
+.opcao button {
     background: none;
     border: none;
     font-size: 20px;
     outline: none;
 }
 
-.opcao button:hover{
+.opcao button:hover {
     border-bottom: 2px solid #7F00FF;
 }
 
-.opcaoSelecionada{
-    width: 40%;
-    height: 80%;
+.opcaoSelecionada {
+    width: 60%;
+    height: 70%;
     display: flex;
-    justify-content: space-around;
 }

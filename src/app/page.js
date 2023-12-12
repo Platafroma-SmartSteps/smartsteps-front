@@ -6,8 +6,9 @@ import aulaPP from "public/img/aulaPP.jpeg"
 import ambiete1 from "public/img/ambiente1.jpeg"
 import ambiente2 from "public/img/ambiente2.jpeg"
 import btf from "public/img/butterfly.jpeg"
-import felipe from "public/img/gnomo.png"
+import Rafa from "../assets/Rafa.jpg"
 import Imagem from "../assets/pontocultural.jpg"
+import Gabriel from "../assets/gabs.jpg"
 
 export default function Home() {
    return (
@@ -62,15 +63,18 @@ export default function Home() {
                </article>
             </section>
          </div>
+         <div className="titulo">
+            <h2>Depoimentos</h2>
+         </div>
          <div className="depoimentos">
             <div className="comentario">
                <p>
                   A Smart Steps mudou minha visão da educação! Canais com conteúdo envolvente, equipes colaborativas para troca de conhecimentos, e eventos educacionais em pontos culturais incríveis. Como estudante, me sinto inspirado. Recomendo a jovens em busca de uma experiência educacional inovadora e divertida!
                </p>
                <div className="conteudo">
-                  <Image className="usuario" src={felipe} />
+                  <Image className="usuario" src={Rafa} />
                   <div className="">
-                     <h3>Felipe Damasceno</h3>
+                     <h3>Rafael Santos</h3>
                      <h4>Aluno</h4>
                   </div>
                </div>
@@ -78,8 +82,80 @@ export default function Home() {
 
             <div className="comentario">
                <p>
-                  A Smart Steps mudou minha visão da educação! Canais com conteúdo envolvente, equipes colaborativas para troca de conhecimentos, e eventos educacionais em pontos culturais incríveis. Como estudante, me sinto inspirado. Recomendo a jovens em busca de uma experiência educacional inovadora e divertida!
+                  A Smart Steps trouxe uma abordagem refrescante para a educação!
+                  Como professor, vejo o impacto positivo dessas iniciativas no engajamento dos alunos. Recomendo esta plataforma a colegas que buscam inovação e diversão no processo educacional.
                </p>
+               <div className="conteudo">
+                  <Image className="usuario" src={Gabriel} />
+                  <div>
+                     <h3>Gabriel Augusto</h3>
+                     <h4>Professor</h4>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div className="titulo">
+            <h3>Adquira um Plano</h3>
+         </div>
+         <div className="texto">
+            <p>
+               Desbloqueie o potencial do seu aprendizado, conecte-se com a riqueza cultural da sua cidade e faça parte de uma comunidade dedicada ao crescimento intelectual.
+            </p>
+         </div>
+         <div className="titulo">
+            <h4>Comece seu teste gratuito de três aulas</h4>
+         </div>
+         <div className="planos">
+            <div className="valores">
+               <h2>Basico</h2>
+               <div className="preco">
+                  <h3>R$9,99</h3>
+               </div>
+               <div className="descricao">
+                  <p>
+                     Comunidade Gratuita
+                  </p>
+                  <p>
+                     Aula avulsa
+                  </p>
+               </div>
+               <div className="botao">
+                  <button className="comprar">Selecionar</button>
+               </div>
+            </div>
+            <div className="valores">
+               <h2>Avançado</h2>
+               <div className="preco">
+                  <h3>R$25,99</h3>
+               </div>
+               <div className="descricao">
+                  <p>
+                     Comunidade Gratuita
+                  </p>
+                  <p>
+                     Três aulas para se increver quando quiser
+                  </p>
+               </div>
+               <div className="botao">
+                  <button className="comprar">Selecionar</button>
+               </div>
+            </div>
+            <div className="valores">
+               <h2>Premium</h2>
+               <div className="preco">
+                  <h3>R$29,99</h3>
+               </div>
+               <div className="descricao">
+                  <p>
+                     Comunidade Gratuita
+                  </p>
+                  <p>
+                     Cinco aulas para se inscrever quando quiser
+                  </p>
+               </div>
+               <div className="botao">
+                  <button className="comprar">Selecionar</button>
+               </div>
             </div>
          </div>
          <Footer></Footer>

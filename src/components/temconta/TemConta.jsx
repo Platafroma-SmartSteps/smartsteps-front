@@ -3,7 +3,6 @@ import "../temconta/temConta.css"
 export default function TemConta(){
     return(
         <div className="forms">
-           <BtnGoogle></BtnGoogle>
             <form action="">
                 <div className="inputs">
                     <label htmlFor="email">Email</label>
@@ -14,6 +13,7 @@ export default function TemConta(){
                     <input type="password" name="senha" id="senha" placeholder="digite sua senha"/>
                 </div>
             </form>
+            <BtnGoogle></BtnGoogle>
             <div className="entrar">
                 <button className="btnEntrar">Entrar</button>
                 <a href="/">esqueceu sua senha?</a>
