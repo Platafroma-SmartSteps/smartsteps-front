@@ -14,7 +14,7 @@ function Header(){
         <Image src="/img/logoSS.png" width={100} height={100} alt='logo'/>
            <nav>
             <Link href={"/"} className={pathname == '/' ? 'selected' : ''}>Início</Link>
-            <Link href={"./Aulas"} className={pathname == '/Aulas' ? 'selected' : ''}>Espaços</Link>
+            <Link href={"./Espacos"} className={pathname == '/Espacos' ? 'selected' : ''}>Espaços</Link>
             <Link href={"./Canais"} className={pathname == '/Canais' ? 'selected' : ''}>Comunidade</Link>
             <Link href={"./Feedbacks"} className={pathname == '/Feedbacks' ? 'selected' : ''}>Feedback</Link>
             <Opcoes></Opcoes>
