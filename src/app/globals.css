@@ -1,10 +1,11 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.container{
+.container {
+  background-color: #f5f5f5f5;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -12,17 +13,35 @@
   justify-content: center;
 }
 
-.inicioImg{
+.inicioImg {
   width: 100%;
+  margin-top: 10px;
 }
 
-.inicioImg img{
+.inicioImg img {
   width: 100%;
   height: 80vh;
 }
 
-.infos{
-  width: 85%;
+.inicioTexto {
+  width: 30%;
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  color: white;
+}
+
+.inicioTexto h1 {
+  font-size: 2.5rem;
+}
+
+.inicioTexto p {
+  text-align: justify;
+  font-size: 1.5rem;
+}
+
+.infos {
+  width: 90%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -30,85 +49,194 @@
   margin-top: 50px;
 }
 
-.infos section{
+.infos section {
   display: flex;
   align-items: center;
   gap: 50px;
 }
 
-.infos h3{
-  font-size: 3rem;
+.infos h2 {
+  font-size: 2.8rem;
+  color: #871DEA;
+  margin-top: 35px;
+}
+
+.infos h3 {
+  font-size: 1.8rem;
   color: #FF8C00;
+  margin-top: 35px;
 }
 
-.infos p{
-  font-size: 2rem;
-  margin-top: 50px;
+.infos p {
+  font-size: 1.6rem;
+  text-align: justify;
+  margin-top: 30px;
 }
 
-section img{
-   width: 50%;
-   height: 50%;
-   border-radius: 20px;
-}
-
-section article{
+section img {
   width: 50%;
   height: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.novosAmbientes{
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 50px;
-  margin-top: 50px;
-}
-
-.visita{
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.imagensVisita{
-  display: flex;
-  width: 100%;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 50px;
-}
-
-.imagensVisita img{
-  width: 20rem;
-  height: 20rem;
-  border-radius: 100%;
-}
-
-.comentarios{
-  width: 80%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 50px;
-  margin-top: 50px;
-  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
-  padding: 20px;
   border-radius: 20px;
 }
 
-.comentarios img{
-  width: 20%;
-  height: 20%;
+section article {
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo h2 {
+  font-size: 2rem;
+  margin-top: 70px;
+}
+
+.depoimentos {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 60px;
+}
+
+.comentario {
+  background-color: white;
+  width: 30%;
+  height: 65vh;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.473);
+  border-radius: 10px;
+}
+
+.comentario p {
+  width: 100%;
+  height: 65%;
+  text-align: justify;
+  font-size: 1.2rem;
+  padding: 20px;
+}
+
+.conteudo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 45px;
+}
+
+.conteudo h3 {
+  font-size: 1.3rem;
+  padding-left: 10px;
+}
+
+.conteudo h4 {
+  font-size: 1.2rem;
+  color: #FF8C00;
+  padding-left: 10px;
+}
+
+.usuario {
+  width: 5rem;
+  height: 5rem;
   border-radius: 100%;
-  border: 2px solid #000;
-  padding: 10px;
+}
+
+.titulo h3 {
+  color: #871DEA;
+  font-size: 2rem;
+  margin-top: 90px;
+}
+
+.texto {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin-top: 15px;
+}
+
+.texto p{
+  font-size: 1.5rem;
+}
+
+.titulo h4 {
+  color: #871DEA;
+  font-size: 2rem;
+  margin-top: 40px;
+}
+
+.planos {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 60px;
+}
+
+.valores {
+  background-color: white;
+  width: 25%;
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.473);
+  border-radius: 10px;
+}
+
+.valores h2 {
+  font-size: 2rem;
+  color: #FF8C00;
+  margin-top: 10px;
+}
+
+.preco {
+  margin-top: 40px;
+}
+
+.preco h3 {
+  font-size: 3.5rem;
+  color: #FF8C00;
+  border-bottom: 1px solid #000;
+  padding-bottom: 5px; 
+}
+
+.descricao {
+  width: 80%;
+  height: 30%;
+  margin-top: 10px;
+}
+
+.descricao p {
+  text-align: justify;
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.botao {
+  display: flex;
+  margin-top: 30px;
+}
+
+.botao button {
+  width: 10rem;
+  height: 3rem;
+  font-size: 1rem;
+  text-decoration: none;
+  background-color: white;
+  color: #FF8C00;
+  border: 2px solid #FF8C00;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: all;
+  transition-duration: 0.5s;
+}
+
+.botao button:hover {
+  background-color: #FF8C00;
+  color: white;
 }

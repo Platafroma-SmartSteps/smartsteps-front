@@ -1,15 +1,13 @@
-
-
 .forms{
     display: flex;
     flex-direction: column;
-    aling-items: center;  
+    align-items: center;  
     justify-content: space-around;;  
-    width: 100%;
 }
 
 form{
     margin-top: 2rem;
+    width: 100%;
     height: 50%;
     display: flex;
     flex-direction: column;
@@ -35,6 +33,7 @@ input{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 80%;
 }
 
 .btnEntrar{
@@ -42,7 +41,6 @@ input{
     color: white;
     border: none;
     border-radius: 5px;
-    width: 100%;
     height: 3rem;
     cursor: pointer;
     font-size: 1rem;
