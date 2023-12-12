@@ -1,11 +1,21 @@
 import Header from "@/components/header/Header"
 import Footer from "@/components/footer/Footer"
-export default function Qsomos(){
-    return(
+import "../Qsomos//qsomos.css"
+
+export default function Qsomos() {
+    return (
         <div>
-           <Header></Header>
-           <h1>Quem somos</h1>
-           <Footer></Footer>
+            <Header></Header>
+            <div className="conteudo">
+                <div>
+                    <h1>Nossa Equipe</h1>
+                    <div>
+
+                    </div>
+                    
+                </div>
+            </div>
+            <Footer></Footer>
         </div>
     )
 }

@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.comunidade {
+    background-color: #f5f5f5f5;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.info {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.conteudo {
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.foto {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 100%;
+}
+
+section img {
+    width: 100%;
+    height: auto;
+}
+
+section p {
+    text-align: justify;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.descricao {
+    width: 40%;
+}
+
+.main h2 {
+    margin-top: 30px;
+    font-size: 1.8rem;
+}
+
+.info2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.escolha {
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.materias {
+    background-color: #FF8C00;
+    width: 15rem;
+    height: 5rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.materias h4 {
+    color: white;
+    font-size: 1.2rem;
+}

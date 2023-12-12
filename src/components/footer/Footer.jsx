@@ -10,7 +10,7 @@ function Footer(){
                  <h4>Conta</h4>
                  <div className="linkFooter">
                     <Link href={'/'} className="cor-branca">Configurações</Link>
-                    <Link href={'/'} className="cor-branca">perfil</Link>
+                    <Link href={'./Perfil'} className="cor-branca">perfil</Link>
                     <Link href={'/'} className="cor-branca">Aulas</Link>
                  </div>
               </div>
@@ -35,7 +35,6 @@ function Footer(){
                   <h4>Parceiros</h4>
                   <div className="linkFooter">
                      <Link href={'/'} className="cor-branca">Fica frio</Link>
-                     <Link href={'/'} className="cor-branca">Tutora.ia</Link>
                   </div>
               </div>
               <div className="redesFooter">

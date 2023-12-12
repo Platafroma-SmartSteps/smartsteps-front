@@ -1,15 +1,14 @@
 .content{
     width: 100%;
     height: auto;
-    aling-items: center;
+    align-items: center;
     justify-content: center;
-    
 }
 
 .proximasAulas{
     display: flex;
     flex-direction: column;
-    aling-items: center;
+    align-items: center;
     justify-content: center;
     width: 100%;
     height: auto;
@@ -20,3 +19,4 @@
     display: flex;
     flex-wrap: wrap; 
 }
+
