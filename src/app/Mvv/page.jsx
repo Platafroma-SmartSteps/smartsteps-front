@@ -18,7 +18,7 @@ export default function Mvv(){
                </div>
                <div className={styles.cardMvv}>
                  <div className={styles.card}>
-                     <h3>Missao</h3>   
+                     <h3>Missão</h3>   
                      <p>
                        Nossa missão é orientar os estudantes em direção aos seus projetos profissionais, oferecendo canais de estudo, aulas particulares e conexões com a cultura local.
                      </p> 
@@ -27,7 +27,7 @@ export default function Mvv(){
                      </p>            
                  </div>
                  <div className={styles.card}>
-                    <h3>Visao</h3>
+                    <h3>Visão</h3>
                     <p>
                       Nossa visão é ser a plataforma de referência para estudantes do ensino médio e universitários,
                       transformando a maneira como eles se envolvem com o conhecimento, a cultura e a comunidade.
