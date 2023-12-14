@@ -3,7 +3,7 @@ import Footer from "@/components/footer/Footer"
 import styles from "../Mvv/styles.module.css"
 import Image from "next/image"
 import igreja from "public/img/Igreja.jpg"
-import logobranco from "public/img/icon_SmartSteps_M 4 (1).png"
+import logobranco from "public/img/icon_SmartSteps_branco.png"
 import celular from "public/img/celular.webp"
 export default function Mvv(){
     return(
@@ -12,7 +12,7 @@ export default function Mvv(){
             <div className={styles.mvv}>
                <div className={styles.banner}>
                   <div>
-                   <h1>Missao, Visao e Valores</h1>
+                   <h1>Missão, Visão e Valores</h1>
                   </div>
                   <Image src={logobranco}/>
                </div>

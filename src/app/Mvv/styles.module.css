@@ -46,8 +46,7 @@
 .futuro{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     margin-top: 3em;
 }
@@ -55,6 +54,7 @@
 .futuro h2{
     font-size: 3.5em;
 }
+
 
 .futuro span{
     color: #FF8C00;
