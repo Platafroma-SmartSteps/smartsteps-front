@@ -1,0 +1,182 @@
+.contentAula{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   height: auto;
+   
+}
+
+.informacaoAula2{
+    display: flex;
+    flex-direction: column;   
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background: #f0f0f0;
+    padding: 20px;
+}
+
+.dadosAula2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+
+.titleAula2{
+   width: 100%;
+}
+
+.titleAula2 h1{
+   text-wrap: wrap;
+   width: 40%;
+}
+
+.btnAula{
+    
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btnAula button{
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 5px;
+    border: solid 1px #FF8C00;
+    background-color: #fff;
+    color: #FF8C00;
+    font-weight: bold;
+}
+
+.btnAula button:hover{
+    background-color: #FF8C00;
+    color: #fff;
+}
+
+.descricaoAula2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.descricao2{
+    width: 50%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.descricaoAula2 img{
+    width:30%;
+    height: 40%;
+}
+
+.descricaoProf{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    margin-top: 20px;
+    text-align: center;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.descricaoProf h3{
+    color: #FF8C00;
+}
+
+.prof{
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.prof img{
+    width: 10%;
+    height: 40%;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.nomeProf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.nomeProf h5{
+    color: #FF8C00;
+}
+
+.nomeProf p{
+    text-align: justify;
+}
+
+.localizacao{
+    width: 80%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.textLoc{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+
+}
+
+.mapa{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mapa iframe{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

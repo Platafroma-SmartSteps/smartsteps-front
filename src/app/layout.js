@@ -1,8 +1,10 @@
-import { Inter } from 'next/font/google'
+import { Inter, Roboto, Montserrat } from 'next/font/google'
 import './globals.css'
 
+const montserrat = Montserrat({ subsets: ['latin'], variable: '--montserrat', weight: ['100', '200', '300'] })
+const roboto = Roboto({ subsets: ['latin'], variable: '--roboto',  weight: ['100', '300', '400'] })
+const inter = Inter({ subsets: ['latin'],  })
 
-const inter = Inter({ subsets: ['latin'] })
 import { register } from 'swiper/element/bundle'
 
 register(); 
@@ -19,9 +21,9 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="pt-br">
+    <html className={`${inter.className} ${roboto.variable} ${montserrat.variable}`} lang="pt-br">
        
-      <body className={inter.className}>
+      <body >
         
         <Provider> 
        

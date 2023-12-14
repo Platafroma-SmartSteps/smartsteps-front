@@ -1,6 +1,5 @@
 import Header from "@/components/header/Header"
 import Footer from "@/components/footer/Footer"
-import '../Aulas/aulas.css'
 import PontosCulturais from "@/components/pontocultural/PontoCultural"
 
 function Aulas(){

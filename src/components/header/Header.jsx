@@ -13,7 +13,7 @@ function Header(){
         <Image src="/img/logoSS.png" width={100} height={100} alt='logo'/>
            <nav>
             <Link href={"/"} className={pathname == '/' ? 'selected' : ''}>Início</Link>
-            <Link href={"./Aulas"} className={pathname == '/Aulas' ? 'selected' : ''}>Espaços</Link>
+            <Link href={"./Espacos"} className={pathname == '/Espacos' ? 'selected' : ''}>Espaços</Link>
             <Link href={"./Comunidade"} className={pathname == '/Comunidade' ? 'selected' : ''}>Comunidade</Link>
             <Link href={"./Agendamento"} className={pathname == '/Agendamentos' ? 'selected' : ''}>Agendar Aulas</Link>
             <Opcoes></Opcoes>

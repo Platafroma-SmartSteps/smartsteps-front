@@ -1,0 +1,137 @@
+.banner{
+    background-color: #FF8C00;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner div{
+    width: 80%;
+    text-align: center;
+}
+
+.banner div h1{
+    font-size: 4em;
+    margin: 0;
+}
+
+.cardMvv{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+    margin-top: 3em;
+}
+
+.card{
+    width: 25%;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+.card h3{
+    text-align: center;
+    color: #FF8C00;
+}
+
+.card span{
+    color: #FF8C00;
+}
+
+.futuro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+}
+
+.futuro h2{
+    font-size: 3.5em;
+}
+
+
+.futuro span{
+    color: #FF8C00;
+}
+.itensFuturo{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+    margin-top: 3em;
+
+}
+
+.textFuturo{
+    width: 50%;
+    height: 20rem;
+    padding: 1.2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+.textFuturo h2{
+    font-size: 3em;
+}
+
+.textFuturo span{
+    color: #FF8C00;
+}
+
+.paragrafoFuturo{
+    font-size: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.futuro img{
+    width: 50%;
+    height: 80%;
+}
+
+.espansao{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.espansao img{
+    width: 20rem;
+    height: 30rem;
+}
+
+.textEspansao{
+    width: 50%;
+    height: 20rem;
+    padding: 1.2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+.textEspansao h2{
+    font-size: 3.5em;
+}
+
+.textEspansao span{
+    color: #FF8C00;
+}
+
+.paragrafoEspansao{
+    font-size: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}

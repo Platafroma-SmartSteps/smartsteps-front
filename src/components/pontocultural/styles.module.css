@@ -1,92 +1,50 @@
-.PontosContainer{
-    display: flex; 
-    flex-direction: column;
-    width: 50%;
-    margin: 5% 0;
-}
-
-.pontos{
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    padding: 10px; 
-    width: 100%;  
-}
-
-.pontos img{
-    width: 300px;
-    height: 300px;
-}
-
-.aulasInfo{
+.PontosCulturais{
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    padding: 10px;
-    width: 50%; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    width: 18rem;
+    height: 25rem;
+    margin: 1.5rem 0;
+    justify-content: space-between;
 }
 
-.aulasInfo h3{
-  color: #C95000;
-}
-
-.aulasInfo p{
-    color: black;
-    font-weight: bold;
-} 
-
-.aulasInfo span{
-    font-weight: normal;
-}
-
-.profAula{
-   display: flex;
-   align-items: center;
-   gap: 10px;
-   padding: 10px;
-}
-
-.profAula img{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
+.PontosCulturais:hover{
+    scale: 1.1;
 }
 
 
+.PontosCulturais img{
+    width: 100%;
+    height: 10rem;
+}
 
+.PontosCulturais h3{
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+    text-align: center;
+    color: #C95000;
+}
 
-.descricaoAula{
+.informacaoAula{
+    padding: 0 .5rem;
+    height:40%;
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    justify-content: space-between;
 }
 
-
-.btn{
+.linkAula{
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
+   
 }
 
-.btn button{
-    width: 30%;
-    height: 40px;
-    background-color: #C95000;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-size: 20px;
-    cursor: pointer;
+.linkAula a{
+    text-decoration: none;
+    color: #000;
 }
 
-.overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+.linkAula a:hover{
+    color: #C95000;
+}
