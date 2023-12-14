@@ -1,6 +1,6 @@
 
     import BtnGoogle from "../btngoogle/BtnGoogle"
-    import "../ntemconta/NtemConta.css"
+    import "./Ntemconta.css"
     export default function Ntemconta(){
         return(
             <div className="forms">
