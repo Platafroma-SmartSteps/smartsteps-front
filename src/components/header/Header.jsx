@@ -15,6 +15,7 @@ function Header(){
             <Link href={"/"} className={pathname == '/' ? 'selected' : ''}>Início</Link>
             <Link href={"./Aulas"} className={pathname == '/Aulas' ? 'selected' : ''}>Espaços</Link>
             <Link href={"./Comunidade"} className={pathname == '/Comunidade' ? 'selected' : ''}>Comunidade</Link>
+            <Link href={"./Agendamento"} className={pathname == '/Agendamentos' ? 'selected' : ''}>Agendar Aulas</Link>
             <Opcoes></Opcoes>
           </nav>  
         <Link href={"./Login"} className='btnHeader'>Entrar</Link>
