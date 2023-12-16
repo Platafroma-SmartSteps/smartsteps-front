@@ -1,4 +1,4 @@
-.banner{
+.banner {
     background-color: #FF8C00;
     color: #FFFFFF;
     display: flex;
@@ -6,17 +6,17 @@
     align-items: center;
 }
 
-.banner div{
+.banner div {
     width: 80%;
     text-align: center;
 }
 
-.banner div h1{
+.banner div h1 {
     font-size: 4em;
     margin: 0;
 }
 
-.cardMvv{
+.cardMvv {
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -24,26 +24,27 @@
     margin-top: 3em;
 }
 
-.card{
+.card {
     width: 25%;
     padding: 1em;
     display: flex;
     flex-direction: column;
     gap: 1em;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
 }
 
-.card h3{
+.card h3 {
     text-align: center;
     color: #FF8C00;
 }
 
-.card span{
+.card span {
     color: #FF8C00;
 }
 
-.futuro{
+.futuro {
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -51,15 +52,15 @@
     margin-top: 3em;
 }
 
-.futuro h2{
+.futuro h2 {
     font-size: 3.5em;
 }
 
-
-.futuro span{
+.futuro span {
     color: #FF8C00;
 }
-.itensFuturo{
+
+.itensFuturo {
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -68,49 +69,57 @@
 
 }
 
-.textFuturo{
-    width: 50%;
-    height: 20rem;
+.textFuturo {
+    width: 60%;
+    height: 35rem;
     padding: 1.2em;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 1em;
+    padding-left: 4rem;
 }
 
-.textFuturo h2{
+.textFuturo h2 {
     font-size: 3em;
 }
 
-.textFuturo span{
+.textFuturo span {
     color: #FF8C00;
 }
 
-.paragrafoFuturo{
+.paragrafoFuturo {
     font-size: 2em;
     display: flex;
     flex-direction: column;
     gap: 1em;
 }
 
-.futuro img{
+.futuro img {
     width: 50%;
-    height: 80%;
+    height: 35rem;
 }
 
-.espansao{
+.espansao {
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-top: 7rem;
 }
 
-.espansao img{
-    width: 20rem;
+.espansao img {
+    width: 80%;
     height: 30rem;
+    margin-left: 4rem;
 }
 
-.textEspansao{
+.espansao p {
+    margin-left: 4rem;
+}
+
+.textEspansao {
     width: 50%;
     height: 20rem;
     padding: 1.2em;
@@ -121,17 +130,20 @@
     gap: 1em;
 }
 
-.textEspansao h2{
-    font-size: 3.5em;
+.textEspansao h2 {
+    font-size: 3.0rem;
+    margin-left: 2rem;
 }
 
-.textEspansao span{
+.textEspansao span {
     color: #FF8C00;
 }
 
-.paragrafoEspansao{
+.paragrafoEspansao {
+    width: 100%;
     font-size: 2em;
     display: flex;
     flex-direction: column;
     gap: 1em;
+    margin-right: 4rem;
 }

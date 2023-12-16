@@ -8,7 +8,7 @@ import ambiente2 from "public/img/ambiente2.jpeg"
 import btf from "public/img/butterfly.jpeg"
 import Rafa from "../assets/Rafa.jpg"
 import Imagem from "../assets/pontocultural.jpg"
-import Gabriel from "../assets/gabs.jpg"
+import professora from "../assets/professora.jpg"
 
 export default function Home() {
    return (
@@ -42,7 +42,7 @@ export default function Home() {
             </section>
          </div>
          <div className="infos">
-            <h2>Por que dar aulas  na Smart Steps?</h2>
+            <h2>Por que dar aulas na Smart Steps?</h2>
             <section className="info2">
                <Image src={aulaPP} />
                <article>
@@ -75,7 +75,7 @@ export default function Home() {
                   <Image className="usuario" src={Rafa} />
                   <div className="">
                      <h3>Rafael Santos</h3>
-                     <h4>Aluno</h4>
+                     <h4>Aluno(a)</h4>
                   </div>
                </div>
             </div>
@@ -86,10 +86,10 @@ export default function Home() {
                   Como professor, vejo o impacto positivo dessas iniciativas no engajamento dos alunos. Recomendo esta plataforma a colegas que buscam inovação e diversão no processo educacional.
                </p>
                <div className="conteudo">
-                  <Image className="usuario" src={Gabriel} />
+                  <Image className="usuario" src={professora} />
                   <div>
-                     <h3>Gabriel Augusto</h3>
-                     <h4>Professor</h4>
+                     <h3>Monique Oliveira</h3>
+                     <h4>Professor(a)</h4>
                   </div>
                </div>
             </div>

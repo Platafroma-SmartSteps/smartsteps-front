@@ -15,17 +15,17 @@
 }
 
 .proximasAulas{
-  width: 50%;
+  width: 100%;
   text-align: center;
+  margin-top: 2rem;
+}
+
+.proximasAulas h1 {
+    width: 100%;
 }
 
 .proximasAulas span{
    color: #FF8C00;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     width: 100%;
     height: auto;
     text-align: center;
@@ -39,5 +39,6 @@
     align-items: center;
     justify-content: space-around;
     margin: 0 auto;
+    margin-top: 1rem;
 }
 

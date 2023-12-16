@@ -6,7 +6,7 @@ import { useState } from "react";
 import SubiscriptionFomr from "@/components/inscrevase/Inscrevase";
 import Image from "next/image";
 import pinacoteca from "public/img/pinacoteca.jpg"
-import gabs from "public/img/gabs.jpg"
+import Professora from "../../assets/professora.jpg"
 export default function Aula(){
     const [isFormVisible, setFormVisibility] = useState(false)
 
@@ -56,9 +56,9 @@ export default function Aula(){
                  <div className={styles.descricaoProf}>
                         <h3>Conheça o organizador</h3>
                         <div className={styles.prof}>
-                           <Image src={gabs}/>
+                           <Image src={Professora}/>
                            <div className={styles.nomeProf}>
-                              <h5>Gabriel Augusto</h5>
+                              <h5>Monique Oliveira</h5>
                               <p>
                               Apaixonado por arte e história,Com entusiasmo contagiante, ele proporcionará uma visão envolvente. <br />
                               Não perca a chance de aprender e se inspirar com o Professor Gabriel nesta jornada cultural.

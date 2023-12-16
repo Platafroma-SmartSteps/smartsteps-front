@@ -5,6 +5,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: 2rem;
 }
 
 .Identidade2 span{
@@ -21,7 +22,6 @@
 
 .logoIdentidade h1{
     color: #FF8C00;
-
 }
 
 .paleta{
