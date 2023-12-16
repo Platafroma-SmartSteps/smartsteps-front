@@ -1,16 +1,15 @@
-.contentAula{
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   width: 100%;
-   height: auto;
-   
+.contentAula {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
 }
 
-.informacaoAula2{
+.informacaoAula2 {
     display: flex;
-    flex-direction: column;   
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -19,7 +18,7 @@
     padding: 20px;
 }
 
-.dadosAula2{
+.dadosAula2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -32,24 +31,22 @@
     margin-top: 20px;
 }
 
-
-.titleAula2{
-   width: 100%;
+.titleAula2 {
+    width: 100%;
 }
 
-.titleAula2 h1{
-   text-wrap: wrap;
-   width: 40%;
+.titleAula2 h1 {
+    text-wrap: wrap;
+    width: 100%;
 }
 
-.btnAula{
-    
+.btnAula {
     width: 100%;
     display: flex;
     justify-content: flex-end;
 }
 
-.btnAula button{
+.btnAula button {
     width: 100px;
     height: 30px;
     margin: 10px;
@@ -58,32 +55,40 @@
     background-color: #fff;
     color: #FF8C00;
     font-weight: bold;
+    transition: all;
+    transition: 1s;
 }
 
-.btnAula button:hover{
+.btnAula button:hover {
     background-color: #FF8C00;
     color: #fff;
 }
 
-.descricaoAula2{
+.descricaoAula2 {
     display: flex;
     justify-content: space-around;
 }
 
-.descricao2{
-    width: 50%;
+.descricao2 {
+    width: 60%;
     height: auto;
     padding: 10px;
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-.descricaoAula2 img{
-    width:30%;
+
+.descricaoAula2 img {
+    width: 30%;
     height: 40%;
 }
 
-.descricaoProf{
+.descricao2 {
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.descricaoProf {
     width: 80%;
     height: auto;
     display: flex;
@@ -95,27 +100,26 @@
     border-radius: 5px;
 }
 
-.descricaoProf h3{
+.descricaoProf h3 {
     color: #FF8C00;
 }
 
-.prof{
+.prof {
     width: 90%;
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-   
 }
 
-.prof img{
-    width: 10%;
-    height: 40%;
+.prof img {
+    width: 10rem;
+    height: 10rem;
     border-radius: 50%;
     margin: 10px;
 }
 
-.nomeProf{
+.nomeProf {
     width: 80%;
     display: flex;
     flex-direction: column;
@@ -124,15 +128,16 @@
     gap: 10px;
 }
 
-.nomeProf h5{
+.nomeProf h5 {
     color: #FF8C00;
 }
 
-.nomeProf p{
+.nomeProf p {
+    font-size: 1.1rem;
     text-align: justify;
 }
 
-.localizacao{
+.localizacao {
     width: 80%;
     height: auto;
     display: flex;
@@ -145,7 +150,7 @@
     border-radius: 5px;
 }
 
-.textLoc{
+.textLoc {
     width: 80%;
     height: auto;
     display: flex;
@@ -153,17 +158,16 @@
     justify-content: center;
     align-items: flex-start;
     gap: 10px;
-
 }
 
-.mapa{
+.mapa {
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.mapa iframe{
+.mapa iframe {
     width: 100%;
     height: 100%;
     border-radius: 5px;

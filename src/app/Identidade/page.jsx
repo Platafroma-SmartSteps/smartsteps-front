@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 import Image from "next/image"
 import Header from "@/components/header/Header"
 import Footer from "@/components/footer/Footer"
@@ -43,4 +42,4 @@ export default function Identidade(){
         </div>
     )
 }
->>>>>>> ed7072a264c060a1631fc0775b225e77992912e9
+

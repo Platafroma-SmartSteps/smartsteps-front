@@ -5,6 +5,7 @@ import Image from "next/image"
 import igreja from "public/img/Igreja.jpg"
 import logobranco from "public/img/icon_SmartSteps_branco.png"
 import celular from "public/img/celular.webp"
+
 export default function Mvv(){
     return(
         <div className={styles.MvvContainer}>
@@ -75,6 +76,6 @@ export default function Mvv(){
                </div>
             </div>
             <Footer></Footer>
-        </div>
-    )
+    </div>
+  )
 }
