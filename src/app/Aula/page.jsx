@@ -72,9 +72,9 @@ export default function Aula(){
                     <h3>Detalhes</h3>
                     <p>Data: <span>28 de dezembro de 2023</span></p>
                     <p>Horario: <span>16:30h - 18:30h</span></p>
-                    <p>Local <span>Pinacoteca do Estado</span></p>
-                    <p>Endereço <span>Praça da Luz, 2 - Luz, São Paulo - SP, 01120-010</span></p>
-                    <p>Valores <span>alores: R$ 15 meia entrada  R$30 inteira</span></p>
+                    <p>Local: <span>Pinacoteca do Estado</span></p>
+                    <p>Endereço: <span>Praça da Luz, 2 - Luz, São Paulo - SP, 01120-010</span></p>
+                    <p>Valores:<span> R$ 15 meia entrada  R$30 inteira</span></p>
                  </div>
                  <div className={styles.mapa}>
                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29263.586540938333!2d-46.67178482568355!3d-23.5343612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5858e87e68e7%3A0xdcc3da8573212301!2sPinacoteca%20de%20S%C3%A3o%20Paulo!5e0!3m2!1spt-BR!2sbr!4v1702245635220!5m2!1spt-BR!2sbr" width="600" height="450"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>

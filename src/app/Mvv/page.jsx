@@ -49,14 +49,13 @@ export default function Mvv(){
                     <h2>Visão de <span>futuro</span></h2>
                      <div className={styles.itensFuturo}>
                      <div className={styles.textFuturo}>
-                     
                      <div className={styles.paragrafoFuturo}>
                       <h3>A <span>Smart Steps</span> para os <span>SmartPhones</span></h3>
                       <p>Estamos caminhando na direção para  criar  uma plataforma mobile que oferecerá comodidade e facilidade.</p>
                       <p>Visando uma experiência mais acessível, permitindo acesso e interação de forma simples, onde quer que estejam.</p>
                      </div>
                   </div>
-                  <Image src={celular}/>
+                  <Image src={celular} width={350}/>
                      </div>
                </div>
                <div className={styles.espansao}>

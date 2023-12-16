@@ -2,12 +2,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;  
-    justify-content: space-around;;  
+    justify-content: space-around;
+    border: solid 2px blue;
+    width: 40%;
 }
 
 form{
     margin-top: 2rem;
-    width: 100%;
+    width: 50%;
     height: 50%;
     display: flex;
     flex-direction: column;
@@ -33,7 +35,8 @@ input{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 80%;
+    width: 50%;
+    gap: 10px;
 }
 
 .btnEntrar{
@@ -45,6 +48,7 @@ input{
     cursor: pointer;
     font-size: 1rem;
     text-transform: uppercase;
+    width: 50%;
 }
 
 .termo{

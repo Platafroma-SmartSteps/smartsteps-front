@@ -33,11 +33,13 @@
 
 .inicioTexto h1 {
   font-size: 2.5rem;
+  font-family: var(--roboto)
 }
 
 .inicioTexto p {
   text-align: justify;
   font-size: 1.5rem;
+  font-family: var(--montserrat)
 }
 
 .infos {
@@ -57,8 +59,9 @@
 
 .infos h2 {
   font-size: 2.8rem;
-  color: #871DEA;
+  color: #FF8C00;
   margin-top: 35px;
+  font-family: var(--roboto);
 }
 
 .infos h3 {
@@ -71,6 +74,7 @@
   font-size: 1.6rem;
   text-align: justify;
   margin-top: 30px;
+  font-family: var(--montserrat)
 }
 
 section img {
@@ -130,6 +134,7 @@ section article {
 .conteudo h3 {
   font-size: 1.3rem;
   padding-left: 10px;
+  
 }
 
 .conteudo h4 {
@@ -145,9 +150,10 @@ section article {
 }
 
 .titulo h3 {
-  color: #871DEA;
+  color: #FF8C00;
   font-size: 2rem;
   margin-top: 90px;
+  font-family: var(--roboto);
 }
 
 .texto {
@@ -159,10 +165,11 @@ section article {
 
 .texto p{
   font-size: 1.5rem;
+  font-family: var(--montserrat)
 }
 
 .titulo h4 {
-  color: #871DEA;
+  color: #FF8C00;
   font-size: 2rem;
   margin-top: 40px;
 }
@@ -192,6 +199,7 @@ section article {
   font-size: 2rem;
   color: #FF8C00;
   margin-top: 10px;
+  font-family: var(--roboto)
 }
 
 .preco {
@@ -203,6 +211,7 @@ section article {
   color: #FF8C00;
   border-bottom: 1px solid #000;
   padding-bottom: 5px; 
+  font-family: var(--roboto)
 }
 
 .descricao {

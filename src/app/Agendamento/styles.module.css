@@ -1,0 +1,81 @@
+
+
+.agendar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.formsagenda{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  
+}
+
+.areas{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    height: 100%;
+}
+
+.titulo{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: var(--roboto);
+}
+
+.titulo span{
+    color: #FF8C00;
+}
+
+.dados{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    width: 100%;  
+}
+
+.dados + .dados{
+    margin-top: 10px;
+}
+
+.dados input{
+    width: 50%;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+}
+
+
+
+.btnAgendar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.btnAgendar a{
+   text-decoration: none;
+   color: #FF8C00;
+   font-weight: bold;
+   font-size: 20px;
+   border: 2px solid #FF8C00;
+   width: 70%;
+   text-align: center;
+   padding: 10px;
+   border-radius: 5px;
+   margin-top: 10px;
+}
+
+.btnAgendar a:hover{
+    background-color: #FF8C00;
+    color: #fff;
+    transition: 0.5s;
+}
