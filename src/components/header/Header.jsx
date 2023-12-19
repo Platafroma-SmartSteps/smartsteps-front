@@ -16,7 +16,7 @@ function Header(){
     const userParsed = JSON.parse(usuarios_selecionado) || null
     if(userParsed ){
       
-      if((userParsed[0]).logado){
+      if((userParsed[0])?.logado){
         setUsuario(userParsed[0])
       }
     }
@@ -36,7 +36,7 @@ function Header(){
             <Link href={"/"} className={pathname == '/' ? 'selected' : ''}>Início</Link>
             <Link href={"./Espacos"} className={pathname == '/Espacos' ? 'selected' : ''}>Espaços</Link>
             <Link href={"./Comunidade"} className={pathname == '/Comunidade' ? 'selected' : ''}>Comunidade</Link>
-            <Link href={"./Agendamento"} className={pathname == '/Agendamento' ? 'selected' : ''}>Agendar Aulas</Link>
+            <Link href={"./Agendamento"} className={pathname == '/Agendamento' ? 'selected' : ''}>Ministrar Aulas</Link>
             <Opcoes></Opcoes>
 
           </nav>  
