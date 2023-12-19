@@ -59,7 +59,7 @@
 
 .infos h2 {
   font-size: 2.8rem;
-  color: #FF8C00;
+  color: #000;
   margin-top: 35px;
   font-family: var(--roboto);
 }
@@ -68,6 +68,10 @@
   font-size: 1.8rem;
   color: #FF8C00;
   margin-top: 35px;
+}
+
+.infos span{
+  color:#FF8C00;
 }
 
 .infos p {
@@ -96,6 +100,8 @@ section article {
   font-size: 2rem;
   margin-top: 70px;
 }
+
+
 
 .depoimentos {
   width: 100%;
@@ -135,6 +141,15 @@ section article {
   font-size: 1.3rem;
   padding-left: 10px;
   
+}
+
+.tituloPlan span {
+  color: #FF8C00;
+}
+
+.tituloPlan h3 {
+  font-size: 2rem;
+  margin-top: 70px;
 }
 
 .conteudo h4 {

@@ -6,6 +6,14 @@
     width: 40%;
 }
 
+form .entrar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+}
+
 form{
     margin-top: 2rem;
     width: 50%;
@@ -65,4 +73,9 @@ input{
 .termo label{
     font-size: 0.8rem;
 }   
+
+.divbtng{
+    width: 100%;
+    border: solid 1px #871DEA;
+}
 

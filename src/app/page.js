@@ -22,7 +22,7 @@ export default function Home() {
             </div>
          </div>
          <div className="infos">
-            <h2>Por que estudar na Smart Steps?</h2>
+            <h2>Por que <span>estudar</span> na <span>Smart Steps?</span></h2>
             <section className="info1">
                <article>
                   <h3>Locais Culturais como Sala de Aulas:</h3>
@@ -42,7 +42,7 @@ export default function Home() {
             </section>
          </div>
          <div className="infos">
-            <h2>Por que dar aulas na Smart Steps?</h2>
+            <h2>Por que <span>dar aulas</span> na <span>Smart Steps?</span></h2>
             <section className="info2">
                <Image src={aulaPP} />
                <article>
@@ -94,8 +94,8 @@ export default function Home() {
                </div>
             </div>
          </div>
-         <div className="titulo">
-            <h3>Adquira um Plano</h3>
+         <div className="tituloPlan">
+            <h3>Adquira um <span>Plano</span></h3>
          </div>
          <div className="texto">
             <p>

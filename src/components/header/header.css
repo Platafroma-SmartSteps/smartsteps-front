@@ -50,3 +50,26 @@ nav a:hover {
     background-color: #FF8C00;
     color: white;
 }
+
+.headerModfai{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px #FF8C00;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-right: 1rem;
+    width: 8rem;
+    height: 1rem;
+    text-align: center;
+    color: #FF8C00;
+    text-decoration: none;
+    transition: all;
+    transition-duration: 0.5s;
+}
+
+.headerModfai svg{
+    width: 1.5rem;
+    height: 1.5rem;
+    color: red;
+}

@@ -32,7 +32,7 @@
 }
 
 .equipe p{
-    font-size: 20px;
+    
     font-weight: 400;
     color: #000;
     text-align: justify;
@@ -46,6 +46,7 @@
     justify-content: center;
     width: 100%;
     margin-top: 50px;
+    gap: 2rem;
 }
 
 .integrantes{
